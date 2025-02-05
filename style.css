@@ -1,0 +1,33 @@
+.colored-text{
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    cursor: crosshair;
+}
+
+#image-random{
+    margin-left: 30%;
+}
+
+#randomImage{
+    width: 500px;
+    height: 500px;
+    margin: 40px 0 0  40px ;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 20%;
+    text-align: center;
+}
+td, th {
+    display: flex;
+    border: 1px solid black;
+    padding: 8px;
+}
+
