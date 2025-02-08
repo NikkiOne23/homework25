@@ -46,16 +46,14 @@ function setUserInfoCookie(key, value) {
    // 4
 function tableOfPif(){
   let newTable = document.querySelector('.tableOfPif')
-  for(let i = 0;i <= 10;i++){
-    let newRow = document.createElement('th');
-    for(let y = 0; y <= 10;y++){
+  for(let i = 1;i <= 10;i++){
+    let newRow = document.createElement('tr');
+    for(let y = 1; y <= 10;y++){
       let cell;
 
        if(i === 0 ){
           cell = document.createElement('th');
           cell.textContent = y;
-      }else if(y === 0){
-        cell = document.createElement('th');
       } else {
         cell = document.createElement("td");
         cell.textContent = i * y;
